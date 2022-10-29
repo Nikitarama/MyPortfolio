@@ -36,7 +36,7 @@ a {
   margin:0;
   padding:0;
   display:inline-block;
-  margin-left:20%;
+  margin-left:21%;
   text-shadow: 0px 0px 10px cyan;
 }
 
@@ -74,6 +74,8 @@ h2 {
   margin:0;
   padding:0;
   text-align:center;
+  text-shadow: 0px 0px 9px cyan;
+  
 }
 
 .logIn p {
@@ -134,4 +136,13 @@ h2 {
   left:calc(49% - 50px);
   border-radius:50%;
   z-index:1;
+}
+
+.audio {
+  position:absolute;
+  margin:10%;
+}
+
+.audio controls {
+  color:cyan;
 }
