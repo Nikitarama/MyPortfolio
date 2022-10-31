@@ -1,0 +1,112 @@
+* {
+    padding:0;
+    margin:0;
+}
+
+body {
+    margin:0;
+    padding:0;
+    width:100%;
+    height:auto;
+    overflow:hidden;
+    background:rgb(6, 5, 16);
+    background-image: url(./pics/rednebula.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    box-sizing: border-box;
+}
+
+.topnav {
+    margin:0;
+    padding:0;
+    text-align: center;
+   
+}
+
+.topnav a {
+    color:aliceblue;
+    text-decoration: none
+    
+}
+
+.topnav ul {
+    
+    display:inline-flex;
+    list-style: none;
+    font-weight: bold;
+   font-family: 'Courier New', Courier, monospace;
+}
+
+.topnav ul li:hover {
+    background: rgba(0, 0, 0, 0.3);
+    border-radius: 30px;
+    height: 20px;
+    width:150px;
+
+}
+
+.topnav ul li {
+    width:120px;
+    margin:15px;
+    padding:15px;
+}
+
+.search-bar{ 
+  margin:0;
+  padding:0;
+  width:100%;
+  text-align: center;
+}
+
+.search-bar button
+ {
+    background-color: rgba(0, 0, 0, 0.4);
+    color: grey;
+    border-radius: 40px;
+    width: 100px;
+    height:40px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 15px;
+    letter-spacing: 2px;
+    font-weight: bold;
+}
+
+.search-bar input[type="search"] {
+    margin: 7px;
+    padding:0;
+    background: rgba(0, 0, 0, 0.1);
+    border-radius: 40px;
+    border:2px solid rgba(0, 0, 0, 0.8);
+    width:650px;
+    height:40px
+    
+}
+
+.search-bar input[placeholder="Search"] {
+    color:red;
+    letter-spacing: 2px;
+}
+
+.search-bar:hover button {
+    color:aliceblue;
+    background: rgba(0, 0, 0, 0.6);
+}
+
+.content-wrapper {
+    width:80%;
+    margin:4% 10% 5% 10%;
+}
+
+.content-wrapper img {
+    width:100%;
+}
+
+.text-wrapper {
+   width:100%;
+   position: relative; 
+   margin-top:-40%;
+   color:white;
+   text-shadow: 0px 0px 5px aquamarine;
+   text-align: center;
+}

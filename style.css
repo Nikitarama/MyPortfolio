@@ -1,0 +1,145 @@
+* {
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+header {
+  
+  background: blue;
+}
+
+body {
+  background:black;
+  background-image:url(./pics/bluespace.webp);
+  background-size:cover;
+}
+
+.topnav {
+  
+  height:41px;
+  background:rgb(17, 17, 17);
+  border-bottom:  7px solid rgb(8, 8, 8);
+}
+
+a {
+  margin:0;
+  padding:8px;
+  font-size: 20px;
+  letter-spacing: 4px;
+  text-decoration:none;
+  color:black;
+  text-shadow: 0px 0px 10px cyan;
+  text-transform: uppercase;
+  
+}
+
+.topnav h1 {
+  margin:0;
+  padding:0;
+  display:inline-block;
+  margin-left:21%;
+  text-shadow: 0px 0px 10px cyan;
+}
+
+a:hover {
+  box-shadow: 0px 0px 10px cyan;
+}
+
+.search-bar {
+  margin:7px;
+  float:right;
+}
+
+.topnav button {
+  background:rgb(3, 177, 177);
+  
+}
+
+button:hover {
+  background:cyan;
+}
+
+.logIn {
+  position:absolute;
+  top:50%;
+  left:50%;
+  transform:translate(-50%,-50%);
+  width:350px;
+  height:420px;
+  padding:80px 40px;
+  box-sizing: border-box;
+  background: rgba(0,0,0,0.2);
+}
+
+h2 {
+  margin:0;
+  padding:0;
+  text-align:center;
+  text-shadow: 0px 0px 9px cyan;
+  
+}
+
+.logIn p {
+  margin:0;
+  padding:0;
+  font-weight:bold;
+}
+
+.logIn input {
+  width:100%;
+  margin-bottom:20px;
+}
+
+.logIn input[type="text"], .logIn input[type="@text"], .logIn input[type="password"]
+{
+  border:none;
+  border-bottom:1px solid cyan;
+  background:transparent;
+  outline:none;
+  color:cyan;
+  font-size:16px;
+}
+
+.logIn input[type="submit"]
+{
+  border:none;
+  outline:none;
+  height:25px;
+  color:black;
+  font-size:15px;
+  background: rgba(0, 255, 255, 0.658);
+  cursor:pointer;
+  border-radius:0px;
+}
+
+.logIn input[type="submit"]:hover 
+{
+  background:cyan;
+  box-shadow: 0px 0px 6px cyan;
+}
+
+.logIn a {
+  color:black;
+  font-size:14px;
+  font-weight:bold;
+}
+
+::placeholder {
+  color: rgba(255,255,255,0.5);
+}
+
+.gif {
+  width:130px;
+  height:120px;
+  overflow:hidden;
+  position:absolute;
+  top:calc(150px/2);
+  left:calc(49% - 50px);
+  border-radius:50%;
+  z-index:1;
+}
+
+.audio {
+  position:absolute;
+  margin:10%;
+}
+
